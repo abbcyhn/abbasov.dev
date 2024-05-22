@@ -29,6 +29,7 @@ animate = true
 
   [params.theme]
   disableThemeToggle = true
+  defaultTheme = "light"
 
   [params.font]
   fontSize = "1rem"
