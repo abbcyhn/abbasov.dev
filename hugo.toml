@@ -21,7 +21,7 @@ unsafe = true
 
 [params]
 title = ""
-description = "Text about my cool site"
+description = "Jeyhun's personal website"
 favicon = "/fav.png"
 useBootstrapCDN = false
 mathjax = false
@@ -74,17 +74,17 @@ animate = true
     [[params.hero.socialLinks.fontAwesomeIcons]]
     enable = true
     icon = "fab fa-linkedin"
-    url = "https://example.com"
+    url = "https://www.linkedin.com/in/abbasovdev/"
 
     [[params.hero.socialLinks.fontAwesomeIcons]]
     enable = true
     icon = "fab fa-github"
-    url = "https://example.com"
+    url = "https://github.com/abbcyhn"
 
     [[params.hero.socialLinks.fontAwesomeIcons]]
     enable = true
     icon = "fab fa-x-twitter"
-    url = "https://example.com"
+    url = "https://x.com/abbcyhn"
 
 
 
