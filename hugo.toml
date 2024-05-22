@@ -58,7 +58,7 @@ animate = true
   enable = true
   intro = "Hi, my name is"
   title = "Jeyhun."
-  subtitle = "I build things for the web"
+  subtitle = "I build epic apps for the web"
   content = "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
   image = "/images/main.png"
 
@@ -68,7 +68,7 @@ animate = true
     [params.hero.button]
     enable = true
     download = false
-    name = "Mail me"
+    name = "Say hi 👋"
     url = "mailto:jeyhun@abbasov.dev"
 
     [[params.hero.socialLinks.fontAwesomeIcons]]
@@ -117,8 +117,8 @@ I am currently working on a project that will be used to help people find the be
   [params.contact]
   enable = true
   content = "My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!"
-  btnName = "Mail me"
-  btnLink = "mailto:gurusabarisha@gmail.com"
+  btnName = "Mail me 📬"
+  btnLink = "mailto:jeyhun@abbasov.dev"
 
 [params.footer.copyright.logo]
 enable = false
