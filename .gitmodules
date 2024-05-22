@@ -1,0 +1,6 @@
+[submodule "themes/hugo-profile"]
+	path = themes/hugo-profile
+	url = git@github.com:gurusabarish/hugo-profile.git
+[submodule "themes/hugo-PaperMod"]
+	path = themes/hugo-PaperMod
+	url = git@github.com:adityatelange/hugo-PaperMod.git
