@@ -221,6 +221,19 @@ header .navbar.animate {
     list-style: none;
 }
 
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    #about ul {
+        grid-template-columns: repeat(3, minmax(140px, 200px));
+    }
+}
+
+@media (max-width: 900px) {
+    #about ul {
+        grid-template-columns: repeat(2, minmax(140px, 200px));
+    }
+}
+
 #about ul li {
     position: relative;
     margin-bottom: 10px;
