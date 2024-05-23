@@ -12,8 +12,13 @@
                 <h3>
                     {{ .Site.Params.hero.subtitle }}
                 </h3>
-                <p class="hero-content">
+                <p class="hero-content position-relative">
                     {{ .Site.Params.hero.content | markdownify }}
+                    <img src="{{ .Site.Params.hero.logo }}"
+                        class="mx-auto position-absolute {{ if .Site.Params.hero.roundLogo }} rounded-circle{{ end }}"
+                        alt="estonia flag"
+                        style="width: 30px; top: 5px;"
+                    >                    
                 </p>
                 <div class="row">
                     <div class="col-auto h-100">
@@ -22,9 +27,10 @@
 			  {{ if .Site.Params.hero.button.newPage | default true }}
                           target="_blank" style="padding-right: 40px;"
                           {{ end }}>
-                            {{ .Site.Params.hero.button.name }} <img src="{{ .Site.Params.hero.button.image }}"
+                            {{ .Site.Params.hero.button.name }} 
+                        <img src="{{ .Site.Params.hero.button.image }}"
                             class="mx-auto position-absolute {{ if .Site.Params.hero.button.roundImage }} rounded-circle{{ end }}"
-                            alt=""
+                            alt="hi wave emoji"
                             style="width: 30px; top: 5px;"
                         >
                         </a>

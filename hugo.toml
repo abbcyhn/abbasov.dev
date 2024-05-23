@@ -58,9 +58,10 @@ animate = true
   enable = true
   intro = "Hi, my name is"
   title = "Jeyhun."
-  subtitle = "I build epic apps for the web"
-  content = "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+  subtitle = "I build epic web apps"
+  content = "A senior software engineer with over 8 years of experience, based in "
   image = "/images/main.png"
+  logo = "/images/ee-flag-2.gif"
 
     [params.hero.bottomImage]
     enable = true
@@ -94,14 +95,13 @@ animate = true
   title = "About Me"
   image = "/images/about.png"
   content = """
-I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-I am currently working on a project that will be used to help people find the best way to get around the city."""
+I am a Senior Software Engineer with 8+ years of professional experience in the Finance and Government sectors, and a solid
+6 year academic background in Computer Science. I speak English, Turkish, Azerbaijani, and a bit of Estonian."""
 
     [params.about.skills]
     enable = true
-    title = "Here are a few technologies I've been working with recently:"
-    items = [ "HTML", "CSS", "JavaScript", "React", "Node", "Express", "HTML", "CSS", "JavaScript", "React", "Node", "Express", "HTML", "CSS", "JavaScript", "React", "Node", "Express", "HTML", "CSS", "JavaScript", "React", "Node", "Express" ]
+    title = "I've mostly worked with these tools/technologies during my career:"
+    items = [ "Java", "Spring", "Spring Boot", "Hibernate", "JUnit", "Mockito", "Maven", "Gradle", "Git", "OOP", "REST", "SOAP", "WebSocket", "SQL", "Oracle SQL", "PL/SQL", "PostgreSQL", "MS Server", "IMB Db2", "Kafka", "RabbitMQ", "Redis", "Github Actions", "Bash", "Docker", "Kubernetes", "CI/CD", "HTML5", "CSS3", "Javascript", "Jquery", "Ajax", "JSON", "XML", "Bootstrap", "C#", "Python", "Cloud", "AWS", "AZURE", "Jenkins", "Logging", "Linux", "Monitoring", "Prometheus", "Grafana" ]
 
   [params.experience]
   enable = false
