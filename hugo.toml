@@ -61,7 +61,7 @@ animate = true
   subtitle = "I build epic web apps"
   content = "A senior software engineer with over 8 years of experience, based in "
   image = "/images/main.png"
-  logo = "/images/ee-flag-2.gif"
+  logo = "/images/ee-flag.gif"
 
     [params.hero.bottomImage]
     enable = true
