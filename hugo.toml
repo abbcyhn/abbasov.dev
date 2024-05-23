@@ -68,8 +68,9 @@ animate = true
     [params.hero.button]
     enable = true
     download = false
-    name = "Say hi 👋"
+    name = "Say hi"
     url = "mailto:jeyhun@abbasov.dev"
+    image = "/images/giphy.gif"
 
     [[params.hero.socialLinks.fontAwesomeIcons]]
     enable = true
